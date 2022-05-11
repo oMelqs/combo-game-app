@@ -6,8 +6,6 @@
 
 <ul>
   <li><a href="https://reactjs.org/">React</a></li>
-  <li><a href="https://pokeapi.co/">Poke Api</a></li>
-  <li><a href="https://apexcharts.com/">Apex Charts</a></li>
 </ul>
 
 ## ⚙️ Requirements
