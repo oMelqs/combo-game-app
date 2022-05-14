@@ -1,7 +1,7 @@
 export const Home = () => {
   return (
     <div>
-      <title>F*DINHA</title>
+      <title>GET REKT</title>
     </div>
   );
 };
