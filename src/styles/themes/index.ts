@@ -21,4 +21,11 @@ export const defaultTheme = {
     darker: "#15121E",
     darkest: "#13111B",
   },
+  shadows: {
+    lightest: "0px 5px 15px rgba(0, 0, 0, 0.08)",
+    lighter: "rgba(0, 0, 0, 0.15)",
+    dark: "rgba(0, 0, 0, 0.25)",
+    darker: "rgba(0, 0, 0, 0.5)",
+    darkest: "rgba(0, 0, 0, 1)",
+  },
 };

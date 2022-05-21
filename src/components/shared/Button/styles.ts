@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
 
-import { defaultTheme } from "../../../styles/themes";
+import { defaultTheme } from "@styles/themes";
 
 interface ContainerProps {
   color: keyof typeof defaultTheme.colors;
@@ -15,12 +15,12 @@ export const Container = styled.button<ContainerProps>`
   align-items: center;
   justify-content: center;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 32px;
+  padding: 16px;
+  margin: 8px;
+  min-width: 200px;
   cursor: pointer;
   transition: opacity 0.2s;
-  svg {
-    margin-right: 8px;
-  }
   &:disabled {
     cursor: not-allowed;
     opacity: 0.5 !important;

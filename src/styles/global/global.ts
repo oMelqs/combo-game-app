@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     color: #E1E1E6;
     background: transparent;
     -webkit-font-smoothing: antialiased;
+    background: ${(props) => props.theme.backgrounds.dark};
   }
   body, input, button {
     font: 400 16px Roboto, sans-serif;
