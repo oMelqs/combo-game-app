@@ -8,7 +8,14 @@ const Menu: React.FC = () => {
   return (
     <Container>
       <Content>
-        <Button color={"purpleDark"}>Entrar</Button>
+        <Button
+          color={"purpleDark"}
+          onClick={() => {
+            window.location.href = "/SandBox";
+          }}
+        >
+          Entrar
+        </Button>
         <Button color={"purpleDark"}>Criar Sala</Button>
         <Anchor color={"purpleDark"}>Como jogar?</Anchor>
       </Content>
