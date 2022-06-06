@@ -6,7 +6,7 @@ export const Title = styled.title`
   line-height: 6vh;
   height: 6vh;
   margin: 0;
-  padding: 2%;
+  padding: 64px;
   text-transform: uppercase;
   display: flex;
   align-items: center;
