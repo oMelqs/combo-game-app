@@ -14,7 +14,6 @@ const Card: React.FC<CardProps> = ({ value, suit }) => {
   }, []);
 
   return (
-    <Tilt>
       <CardWrapper>
         <TopSuit>
           <img src={suit}></img>
@@ -26,7 +25,6 @@ const Card: React.FC<CardProps> = ({ value, suit }) => {
           <img src={suit}></img>
         </BottomSuit>
       </CardWrapper>
-    </Tilt>
   );
 };
 
