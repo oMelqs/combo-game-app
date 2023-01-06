@@ -1,6 +1,6 @@
-import { RouteProps } from "react-router-dom";
+import { GamblingTable } from "@/pages/GamblingTable";
 import { Home } from "@pages/Home";
-import { SandBox } from "@pages/SandBox";
+import { RouteProps } from "react-router-dom";
 
 export interface CustomRoute extends RouteProps {
   title: string;
@@ -17,10 +17,10 @@ export const configRoutes: Array<CustomRoute> = [
     private: false,
   },
   {
-    title: "SandBox",
-    pageName: "SandBox",
-    path: "/SandBox",
-    element: SandBox(),
+    title: "GamblingTable",
+    pageName: "GamblingTable",
+    path: "/GamblingTable",
+    element: GamblingTable(),
     private: false,
   },
 ];

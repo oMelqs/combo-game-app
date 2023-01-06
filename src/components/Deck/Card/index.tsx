@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
-import { CardWrapper, TopSuit, BottomSuit, CardValue } from "./styles";
-import Tilt from "react-parallax-tilt";
 import { useEffect } from "react";
+import { BottomSuit, CardValue, CardWrapper, TopSuit } from "./styles";
 
 export type CardProps = {
   value: string;
@@ -13,18 +12,20 @@ const Card: React.FC<CardProps> = ({ value, suit }) => {
     console.log("Card component mounted");
   }, []);
 
+  
+
   return (
-      <CardWrapper>
-        <TopSuit>
-          <img src={suit}></img>
-        </TopSuit>
-        <CardValue>
-          <span>{value}</span>
-        </CardValue>
-        <BottomSuit>
-          <img src={suit}></img>
-        </BottomSuit>
-      </CardWrapper>
+    <CardWrapper draggable >
+      <TopSuit>
+        <img src={suit}></img>
+      </TopSuit>
+      <CardValue>
+        <span>{value}</span>
+      </CardValue>
+      <BottomSuit>
+        <img src={suit}></img>
+      </BottomSuit>
+    </CardWrapper>
   );
 };
 

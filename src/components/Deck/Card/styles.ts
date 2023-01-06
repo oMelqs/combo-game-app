@@ -4,8 +4,8 @@ import { defaultTheme } from "@styles/themes";
 
 export const CardWrapper = styled.div`
   display: grid;
-  grid-template-columns: 300px;
-  grid-template-rows: 80px 240px 80px;
+  grid-template-columns: 120px;
+  grid-template-rows: 40px 100px 40px;
   grid-template-areas: "top-suit" "card-value" "bottom-suit";
   border-radius: 16px;
   background: ${defaultTheme.colors.opaque};
@@ -18,7 +18,7 @@ export const CardValue = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 200px;
+  font-size: 100px;
   font-weight: 600;
   color: ${defaultTheme.colors.white};
 `;

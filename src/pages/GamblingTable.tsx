@@ -1,6 +1,6 @@
 import Deck from "@/components/Deck";
 
-export const SandBox = () => {
+export const GamblingTable = () => {
   return (
     <div>
       <Deck />
