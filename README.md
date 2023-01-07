@@ -1,4 +1,4 @@
-# <div align="center"> GET REKT | Card Game</div>
+# <div align="center"> COMBO | Card Game</div>
 
 <p align="center">A simple and addicting card game</p>
 
@@ -26,3 +26,7 @@ $ npm (or yarn) start
 ```
 
 The application will open in the browser on http://localhost:3000
+
+## ♣️❤️ GAME RULES ♠️♦️
+
+<a href="https://sugary-border-53d.notion.site/Regras-do-Jogo-d5d6b3a2664447f8a00cc816c3140192">CLICK HERE</a>

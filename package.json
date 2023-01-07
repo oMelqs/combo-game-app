@@ -1,5 +1,5 @@
 {
-  "name": "rekt-app",
+  "name": "combo-app",
   "private": true,
   "version": "0.0.0",
   "lint-staged": {
@@ -24,7 +24,7 @@
     "@types/styled-components": "^5.1.25",
     "peerjs": "^1.4.4",
     "polished": "^4.2.2",
-    "react": "^18.0.0",
+    "react": "^18.2.0",
     "react-dom": "^18.0.0",
     "react-parallax-tilt": "^1.7.83",
     "react-router-dom": "^6.3.0",
