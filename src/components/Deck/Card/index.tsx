@@ -1,14 +1,11 @@
 /* eslint-disable react/prop-types */
+
+import { TCard } from "@/common/constants/@types/card.types";
 import { useEffect } from "react";
 import Tilt from "react-parallax-tilt";
 import { BottomSuit, CardValue, CardWrapper, TopSuit } from "./styles";
 
-export type CardProps = {
-  value: string;
-  suit: string;
-};
-
-const Card: React.FC<CardProps> = ({ value, suit }) => {
+const Card: React.FC<TCard> = ({ value, suit }) => {
   useEffect(() => {
     console.log("Card component mounted");
   }, []);

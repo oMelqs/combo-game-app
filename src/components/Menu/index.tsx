@@ -12,10 +12,13 @@ const Menu: React.FC = () => {
   return (
     <Container>
       <Content>
-        <Button color={"purpleDark"} onClick={handlePressEnter}>
-          Entrar
-        </Button>
-        <Button color={"purpleDark"}>Criar Sala</Button>
+        <Button
+          color={"purpleDark"}
+          onClick={handlePressEnter}
+          text={"Entrar"}
+        />
+
+        <Button color={"purpleDark"} text={"Criar Sala"} />
         <Anchor color={"purpleDark"}>Como jogar?</Anchor>
       </Content>
     </Container>

@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 export const DeckContainer = styled.div`
-  background-color: white;
   width: 100vw;
+  height: 220px;
   display: flex;
   align-items: center;
   justify-content: center;
+  bottom: 0;
+  margin-bottom: 16px;
+  position: fixed;
   overflow: hidden;
 `;
 

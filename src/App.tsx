@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { configRoutes } from "@routes/routes";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import { ThemeProvider } from "styled-components";
-import { defaultTheme } from "@styles/themes";
 import { GlobalStyle } from "@styles/global/global";
+import { defaultTheme } from "@styles/themes";
+import { ThemeProvider } from "styled-components";
 
 function App() {
   return (
