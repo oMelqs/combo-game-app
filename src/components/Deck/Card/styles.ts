@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { defaultTheme } from "@styles/themes";
 
 export const CardWrapper = styled.div`
+  user-select: none;
   display: grid;
   grid-template-columns: 120px;
   grid-template-rows: 40px 100px 40px;
